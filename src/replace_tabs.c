@@ -11,6 +11,10 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 	printf("%d\n", tab_size);
+
+
+
+
 	return 0;
 }
 
