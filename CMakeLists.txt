@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+project (main)
+add_executable(variable_sizes src/variable_sizes.c)
+add_executable(buffer src/buffer.c)
+add_executable(split_chars src/split_chars.c)
+SET (CMAKE_C_COMPILER             "/usr/bin/clang")
+SET (CMAKE_C_FLAGS                "-Wall -pedantic")	
