@@ -7,6 +7,7 @@ add_executable(split_chars src/split_chars.c)
 add_executable(replace_tabs src/replace_tabs.c)
 add_executable(memory src/memory.c)
 add_executable(const src/const.c)
+add_executable(array_pointer src/array_pointer.c)
 
 SET (CMAKE_C_COMPILER             "/usr/bin/clang")
 SET (CMAKE_C_FLAGS                "-Wall -pedantic")	
