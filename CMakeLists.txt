@@ -10,7 +10,7 @@ add_executable(const src/1_basic/const.c)
 add_executable(array_pointer src/1_basic/array_pointer.c)
 
 add_executable(create_file src/2_low_level_io/create_file.c)
-
+add_executable(append_data src/2_low_level_io/append_data.c)
 
 
 SET (CMAKE_C_COMPILER             "/usr/bin/clang")
